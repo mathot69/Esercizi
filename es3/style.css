@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(23, 121, 178);
+}
+h1{
+    font-size: 32px;
+}
+img{
+    height: 35px;
+}
+p{
+    font-size: 15 px;
+    line-height: 1.5;
+}
