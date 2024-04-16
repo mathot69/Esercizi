@@ -1,0 +1,30 @@
+.magenta {
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+ }
+ .magenta:hover {
+    background-color: #ff5c00;
+    translate: 50px;
+ }
+ .blue {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation-duration: 1s;
+    animation-name: square;
+    animation-iteration-count: infinite;
+ }
+ @-webkit-keyframes "square" {
+    0%{
+       background-color: blue;
+    }
+    50%{
+       background-color: red;
+    }
+    100%{
+       background-color: blue;
+    }
+ }
