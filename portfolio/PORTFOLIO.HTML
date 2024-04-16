@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Tuo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Il Tuo Nome</h1>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="#about">Chi Sono</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contattami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Chi Sono</h2>
+            <p>Descrizione di te stesso e delle tue competenze.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="carousel">
+                <div class="project red">
+                    <h3>Progetto 1</h3>
+                    <p>Descrizione breve del progetto.</p>
+                    <a href="#">Vedi Progetto</a>
+                </div>
+                <div class="project blue">
+                    <h3>Progetto 2</h3>
+                    <p>Descrizione breve del progetto.</p>
+                    <a href="#">Vedi Progetto</a>
+                </div>
+                <div class="project green">
+                    <h3>Progetto 3</h3>
+                    <p>Descrizione breve del progetto.</p>
+                    <a href="#">Vedi Progetto</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contattami</h2>
+            <form action="#">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Il Tuo Nome</p>
+    </footer>
+</body>
+</html>
